@@ -1,0 +1,19 @@
+{
+  "name": "learning-points-contract",
+  "version": "1.0.0",
+  "private": true,
+  "description": "面向区块链新手的最小 Solidity 积分合约实验",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test solidity",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "hardhat": "3.15.0",
+    "solc": "0.8.34"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}

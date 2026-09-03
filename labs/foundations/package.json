@@ -1,0 +1,11 @@
+{
+  "name": "blockchain-foundations-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:crypto": "node crypto-demo.mjs",
+    "demo:ledger": "node toy-ledger.mjs",
+    "test": "node --test"
+  }
+}
+

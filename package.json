@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-learning-kit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:foundations && npm run test:contract",
+    "test:foundations": "npm --prefix labs/foundations test",
+    "test:contract": "npm --prefix labs/points-contract test",
+    "demo:crypto": "npm --prefix labs/foundations run demo:crypto",
+    "demo:ledger": "npm --prefix labs/foundations run demo:ledger"
+  }
+}
+
